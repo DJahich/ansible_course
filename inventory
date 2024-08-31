@@ -1,0 +1,10 @@
+[app]
+10.128.0.19
+
+[database]
+
+10.128.0.23
+
+[database:vars]
+postgresql_version=13
+postgresql_data_dir=var/lib/postgresql/13/main

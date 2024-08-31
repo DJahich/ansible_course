@@ -1,0 +1,10 @@
+---
+- hosts: database
+  become: true
+
+
+  tasks:
+    - name: install postgress
+      ansible.builtin.package:
+        name: postgresql-server
+        state: present
